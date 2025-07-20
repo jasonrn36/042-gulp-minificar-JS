@@ -1,2 +1,2 @@
-﻿# 040-gulp-moinificar-js
+﻿# 040-gulp-minificar-js
  
