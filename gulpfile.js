@@ -6,7 +6,7 @@ const uglify = require('gulp-uglify');
 function comprimeJavaScript() {
     return gulp.src('./source/scripts/*.js')
         .pipe(uglify())
-        .pipe(gulp.dest('./build/scripts'))
+        .pipe(gulp.dest('./build/scripts'));
 }
 
 function compilaSass() {

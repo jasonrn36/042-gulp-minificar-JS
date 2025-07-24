@@ -1,0 +1,1 @@
+function somar(o,s){return o+s}module.exports=somar,console.log("[32m\nOlá o resultado de sua soma no SUM.JS é: ",somar(15,15),"\n"),console.log("Já no aritimética.js é: ");
