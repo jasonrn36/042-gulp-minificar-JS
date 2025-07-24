@@ -43,9 +43,9 @@ exports.default = gulp.parallel (funcaoPadrao, digaOi);
 exports.digaOi = digaOi;
 
 exports.sass = compilaSass;
-
-exports.watch = function() {
-    gulp.watch('./source/styles/*.scss', { ignoreInitial: false }, gulp.series(compilaSass));
+// Esse bloco Watch serv para modificar o site enquanto ele está executado assim podemos sever o que foi feito assim simultaneamente.
+exports.watch = function() { // Adicionado para o watch
+    gulp.watch('./source/styles/*.scss', { ignoreInitial: false }, gulp.series(compilaSass)); // Adicionado para o watch
 }
 
 exports.javascript = comprimeJavaScript;
