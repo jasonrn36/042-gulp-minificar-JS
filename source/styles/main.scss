@@ -1,11 +1,16 @@
 @use 'variaveis';
 
 body {
-    background-color: variaveis.$corPrincipal;
+    background-color: variaveis.$colorMain;
 }
 
 h1 {
-    color: variaveis.$corSecundaria;
+    color: variaveis.$colorSecondary;
     font-family: Arial, Helvetica, sans-serif;
-    
+    font-size: 2em;   
+}
+
+p {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
